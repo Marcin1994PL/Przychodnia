@@ -17,8 +17,9 @@ namespace Przychodnia
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new frmLekarzGlowna());
-           // Application.Run(new Laboratorium());
+            //Application.Run(new frmLekarzGlowna());
+            //Application.Run(new frmLaboratorium());
+            Application.Run(new frmBadania());
         }
     }
 }

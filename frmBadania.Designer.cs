@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnSzukaj = new System.Windows.Forms.Button();
+            this.datDataZleceniaBadania = new System.Windows.Forms.DateTimePicker();
+            this.cmbStausBadania = new System.Windows.Forms.ComboBox();
+            this.txtIDBadania = new System.Windows.Forms.TextBox();
+            this.txtNazwiskoPacjent = new System.Windows.Forms.TextBox();
+            this.txtImiePacjent = new System.Windows.Forms.TextBox();
+            this.lblStatusBadania = new System.Windows.Forms.Label();
+            this.lblDataZLeceniaBadania = new System.Windows.Forms.Label();
+            this.lblIDBadania = new System.Windows.Forms.Label();
+            this.lblNazwiskoPacjent = new System.Windows.Forms.Label();
+            this.lblImiePacjent = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.IDBadania = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.kodBadania = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,140 +54,153 @@
             this.dataZleceniaBadania = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataWykonaniaBadania = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.uwagiBadania = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.wykonajButton = new System.Windows.Forms.Button();
-            this.pokazButton = new System.Windows.Forms.Button();
-            this.szukajButton = new System.Windows.Forms.Button();
+            this.btnWykonaj = new System.Windows.Forms.Button();
+            this.btnPokaz = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.szukajButton);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.btnSzukaj);
+            this.panel1.Controls.Add(this.datDataZleceniaBadania);
+            this.panel1.Controls.Add(this.cmbStausBadania);
+            this.panel1.Controls.Add(this.txtIDBadania);
+            this.panel1.Controls.Add(this.txtNazwiskoPacjent);
+            this.panel1.Controls.Add(this.txtImiePacjent);
+            this.panel1.Controls.Add(this.lblStatusBadania);
+            this.panel1.Controls.Add(this.lblDataZLeceniaBadania);
+            this.panel1.Controls.Add(this.lblIDBadania);
+            this.panel1.Controls.Add(this.lblNazwiskoPacjent);
+            this.panel1.Controls.Add(this.lblImiePacjent);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(721, 119);
             this.panel1.TabIndex = 0;
             // 
-            // dateTimePicker1
+            // btnSzukaj
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dateTimePicker1.Checked = false;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(400, 46);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(184, 27);
-            this.dateTimePicker1.TabIndex = 4;
+            this.btnSzukaj.BackColor = System.Drawing.Color.DarkGray;
+            this.btnSzukaj.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnSzukaj.Location = new System.Drawing.Point(400, 84);
+            this.btnSzukaj.Name = "btnSzukaj";
+            this.btnSzukaj.Size = new System.Drawing.Size(119, 27);
+            this.btnSzukaj.TabIndex = 8;
+            this.btnSzukaj.Text = "Szukaj";
+            this.btnSzukaj.UseVisualStyleBackColor = false;
+            this.btnSzukaj.Click += new System.EventHandler(this.btnSzukaj_Click);
             // 
-            // comboBox1
+            // datDataZleceniaBadania
             // 
-            this.comboBox1.DisplayMember = "1";
-            this.comboBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 19;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.datDataZleceniaBadania.CalendarFont = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.datDataZleceniaBadania.Checked = false;
+            this.datDataZleceniaBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.datDataZleceniaBadania.Location = new System.Drawing.Point(400, 46);
+            this.datDataZleceniaBadania.Name = "datDataZleceniaBadania";
+            this.datDataZleceniaBadania.Size = new System.Drawing.Size(184, 27);
+            this.datDataZleceniaBadania.TabIndex = 4;
+            // 
+            // cmbStausBadania
+            // 
+            this.cmbStausBadania.DisplayMember = "1";
+            this.cmbStausBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cmbStausBadania.FormattingEnabled = true;
+            this.cmbStausBadania.ItemHeight = 19;
+            this.cmbStausBadania.Items.AddRange(new object[] {
             "Zlecone",
             "Rozpoczęte",
             "Zakończone",
             "Anulowane"});
-            this.comboBox1.Location = new System.Drawing.Point(400, 11);
-            this.comboBox1.MaxDropDownItems = 5;
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(119, 27);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.ValueMember = "1";
+            this.cmbStausBadania.Location = new System.Drawing.Point(400, 11);
+            this.cmbStausBadania.MaxDropDownItems = 5;
+            this.cmbStausBadania.Name = "cmbStausBadania";
+            this.cmbStausBadania.Size = new System.Drawing.Size(119, 27);
+            this.cmbStausBadania.TabIndex = 1;
+            this.cmbStausBadania.ValueMember = "1";
             // 
-            // textBox3
+            // txtIDBadania
             // 
-            this.textBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox3.Location = new System.Drawing.Point(114, 84);
-            this.textBox3.MaxLength = 15;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(128, 27);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "11300965";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIDBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtIDBadania.Location = new System.Drawing.Point(114, 84);
+            this.txtIDBadania.MaxLength = 15;
+            this.txtIDBadania.Name = "txtIDBadania";
+            this.txtIDBadania.Size = new System.Drawing.Size(128, 27);
+            this.txtIDBadania.TabIndex = 7;
+            this.txtIDBadania.Text = "11300965";
+            this.txtIDBadania.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtNazwiskoPacjent
             // 
-            this.textBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox2.Location = new System.Drawing.Point(114, 44);
-            this.textBox2.MaxLength = 15;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 27);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "Kwiatkowski";
+            this.txtNazwiskoPacjent.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtNazwiskoPacjent.Location = new System.Drawing.Point(114, 44);
+            this.txtNazwiskoPacjent.MaxLength = 15;
+            this.txtNazwiskoPacjent.Name = "txtNazwiskoPacjent";
+            this.txtNazwiskoPacjent.ReadOnly = true;
+            this.txtNazwiskoPacjent.Size = new System.Drawing.Size(128, 27);
+            this.txtNazwiskoPacjent.TabIndex = 6;
+            this.txtNazwiskoPacjent.Text = "Kwiatkowski";
             // 
-            // textBox1
+            // txtImiePacjent
             // 
-            this.textBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(114, 8);
-            this.textBox1.MaxLength = 15;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 27);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "Jacek";
+            this.txtImiePacjent.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtImiePacjent.Location = new System.Drawing.Point(114, 8);
+            this.txtImiePacjent.MaxLength = 15;
+            this.txtImiePacjent.Name = "txtImiePacjent";
+            this.txtImiePacjent.ReadOnly = true;
+            this.txtImiePacjent.Size = new System.Drawing.Size(128, 27);
+            this.txtImiePacjent.TabIndex = 5;
+            this.txtImiePacjent.Text = "Jacek";
             // 
-            // label5
+            // lblStatusBadania
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(342, 14);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 19);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Status";
+            this.lblStatusBadania.AutoSize = true;
+            this.lblStatusBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblStatusBadania.Location = new System.Drawing.Point(342, 14);
+            this.lblStatusBadania.Name = "lblStatusBadania";
+            this.lblStatusBadania.Size = new System.Drawing.Size(52, 19);
+            this.lblStatusBadania.TabIndex = 4;
+            this.lblStatusBadania.Text = "Status";
             // 
-            // label4
+            // lblDataZLeceniaBadania
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(320, 52);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 19);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Data zlec.";
+            this.lblDataZLeceniaBadania.AutoSize = true;
+            this.lblDataZLeceniaBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblDataZLeceniaBadania.Location = new System.Drawing.Point(320, 52);
+            this.lblDataZLeceniaBadania.Name = "lblDataZLeceniaBadania";
+            this.lblDataZLeceniaBadania.Size = new System.Drawing.Size(74, 19);
+            this.lblDataZLeceniaBadania.TabIndex = 4;
+            this.lblDataZLeceniaBadania.Text = "Data zlec.";
             // 
-            // label3
+            // lblIDBadania
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(26, 87);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 19);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "ID Badania";
+            this.lblIDBadania.AutoSize = true;
+            this.lblIDBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblIDBadania.Location = new System.Drawing.Point(26, 87);
+            this.lblIDBadania.Name = "lblIDBadania";
+            this.lblIDBadania.Size = new System.Drawing.Size(82, 19);
+            this.lblIDBadania.TabIndex = 4;
+            this.lblIDBadania.Text = "ID Badania";
             // 
-            // label2
+            // lblNazwiskoPacjent
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(35, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nazwisko";
+            this.lblNazwiskoPacjent.AutoSize = true;
+            this.lblNazwiskoPacjent.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNazwiskoPacjent.Location = new System.Drawing.Point(35, 52);
+            this.lblNazwiskoPacjent.Name = "lblNazwiskoPacjent";
+            this.lblNazwiskoPacjent.Size = new System.Drawing.Size(73, 19);
+            this.lblNazwiskoPacjent.TabIndex = 1;
+            this.lblNazwiskoPacjent.Text = "Nazwisko";
             // 
-            // label1
+            // lblImiePacjent
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(70, 16);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Imię";
+            this.lblImiePacjent.AutoSize = true;
+            this.lblImiePacjent.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblImiePacjent.Location = new System.Drawing.Point(70, 16);
+            this.lblImiePacjent.Margin = new System.Windows.Forms.Padding(0);
+            this.lblImiePacjent.Name = "lblImiePacjent";
+            this.lblImiePacjent.Size = new System.Drawing.Size(38, 19);
+            this.lblImiePacjent.TabIndex = 0;
+            this.lblImiePacjent.Text = "Imię";
             // 
             // dataGridView1
             // 
@@ -197,14 +211,14 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IDBadania,
@@ -226,8 +240,8 @@
             // IDBadania
             // 
             this.IDBadania.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.IDBadania.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.IDBadania.DefaultCellStyle = dataGridViewCellStyle2;
             this.IDBadania.FillWeight = 90F;
             this.IDBadania.HeaderText = "ID Badania";
             this.IDBadania.Name = "IDBadania";
@@ -236,8 +250,8 @@
             // 
             // kodBadania
             // 
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.kodBadania.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.kodBadania.DefaultCellStyle = dataGridViewCellStyle3;
             this.kodBadania.FillWeight = 50F;
             this.kodBadania.HeaderText = "Kod";
             this.kodBadania.Name = "kodBadania";
@@ -246,25 +260,25 @@
             // 
             // nazwaBadania
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.nazwaBadania.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.nazwaBadania.DefaultCellStyle = dataGridViewCellStyle4;
             this.nazwaBadania.HeaderText = "Nazwa";
             this.nazwaBadania.Name = "nazwaBadania";
             this.nazwaBadania.ReadOnly = true;
             // 
             // statusBadania
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.statusBadania.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.statusBadania.DefaultCellStyle = dataGridViewCellStyle5;
             this.statusBadania.HeaderText = "Status";
             this.statusBadania.Name = "statusBadania";
             this.statusBadania.ReadOnly = true;
             // 
             // dataZleceniaBadania
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataZleceniaBadania.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataZleceniaBadania.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataZleceniaBadania.HeaderText = "Data zlec.";
             this.dataZleceniaBadania.Name = "dataZleceniaBadania";
             this.dataZleceniaBadania.ReadOnly = true;
@@ -283,49 +297,40 @@
             this.uwagiBadania.ReadOnly = true;
             this.uwagiBadania.Width = 150;
             // 
-            // wykonajButton
+            // btnWykonaj
             // 
-            this.wykonajButton.BackColor = System.Drawing.Color.ForestGreen;
-            this.wykonajButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.wykonajButton.Location = new System.Drawing.Point(423, 393);
-            this.wykonajButton.Name = "wykonajButton";
-            this.wykonajButton.Size = new System.Drawing.Size(152, 42);
-            this.wykonajButton.TabIndex = 2;
-            this.wykonajButton.Text = "Wykonaj";
-            this.wykonajButton.UseVisualStyleBackColor = false;
+            this.btnWykonaj.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnWykonaj.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWykonaj.Location = new System.Drawing.Point(423, 393);
+            this.btnWykonaj.Name = "btnWykonaj";
+            this.btnWykonaj.Size = new System.Drawing.Size(152, 42);
+            this.btnWykonaj.TabIndex = 2;
+            this.btnWykonaj.Text = "Wykonaj";
+            this.btnWykonaj.UseVisualStyleBackColor = false;
+            this.btnWykonaj.Click += new System.EventHandler(this.btnWykonaj_Click);
             // 
-            // pokazButton
+            // btnPokaz
             // 
-            this.pokazButton.BackColor = System.Drawing.Color.SteelBlue;
-            this.pokazButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.pokazButton.Location = new System.Drawing.Point(581, 393);
-            this.pokazButton.Name = "pokazButton";
-            this.pokazButton.Size = new System.Drawing.Size(152, 42);
-            this.pokazButton.TabIndex = 3;
-            this.pokazButton.Text = "Pokaż";
-            this.pokazButton.UseVisualStyleBackColor = false;
+            this.btnPokaz.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnPokaz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnPokaz.Location = new System.Drawing.Point(581, 393);
+            this.btnPokaz.Name = "btnPokaz";
+            this.btnPokaz.Size = new System.Drawing.Size(152, 42);
+            this.btnPokaz.TabIndex = 3;
+            this.btnPokaz.Text = "Pokaż";
+            this.btnPokaz.UseVisualStyleBackColor = false;
+            this.btnPokaz.Click += new System.EventHandler(this.btnPokaz_Click);
             // 
-            // szukajButton
-            // 
-            this.szukajButton.BackColor = System.Drawing.Color.DarkGray;
-            this.szukajButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.szukajButton.Location = new System.Drawing.Point(400, 84);
-            this.szukajButton.Name = "szukajButton";
-            this.szukajButton.Size = new System.Drawing.Size(119, 27);
-            this.szukajButton.TabIndex = 8;
-            this.szukajButton.Text = "Szukaj";
-            this.szukajButton.UseVisualStyleBackColor = false;
-            // 
-            // Badania
+            // frmBadania
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(745, 442);
-            this.Controls.Add(this.pokazButton);
-            this.Controls.Add(this.wykonajButton);
+            this.Controls.Add(this.btnPokaz);
+            this.Controls.Add(this.btnWykonaj);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Name = "Badania";
+            this.Name = "frmBadania";
             this.Text = "Badania";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -345,18 +350,18 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataZleceniaBadania;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataWykonaniaBadania;
         private System.Windows.Forms.DataGridViewTextBoxColumn uwagiBadania;
-        private System.Windows.Forms.Button wykonajButton;
-        private System.Windows.Forms.Button pokazButton;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button szukajButton;
+        private System.Windows.Forms.Button btnWykonaj;
+        private System.Windows.Forms.Button btnPokaz;
+        private System.Windows.Forms.Label lblNazwiskoPacjent;
+        private System.Windows.Forms.Label lblImiePacjent;
+        private System.Windows.Forms.Label lblIDBadania;
+        private System.Windows.Forms.Label lblStatusBadania;
+        private System.Windows.Forms.Label lblDataZLeceniaBadania;
+        private System.Windows.Forms.TextBox txtIDBadania;
+        private System.Windows.Forms.TextBox txtNazwiskoPacjent;
+        private System.Windows.Forms.TextBox txtImiePacjent;
+        private System.Windows.Forms.ComboBox cmbStausBadania;
+        private System.Windows.Forms.DateTimePicker datDataZleceniaBadania;
+        private System.Windows.Forms.Button btnSzukaj;
     }
 }

@@ -29,52 +29,52 @@
         private void InitializeComponent()
         {
             this.Tab = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.zlecButton = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.tabLekarz = new System.Windows.Forms.TabPage();
+            this.txtKodBadaniaLekarz = new System.Windows.Forms.TextBox();
+            this.btnWYbierzKodBadaniaLekarz = new System.Windows.Forms.Button();
+            this.lblStatusBadaniaLekarz = new System.Windows.Forms.Label();
+            this.txtNazwaBadaniaLekarz = new System.Windows.Forms.TextBox();
+            this.lblNazwaBadaniaLekarz = new System.Windows.Forms.Label();
+            this.txtStatusBadaniaLekarz = new System.Windows.Forms.TextBox();
+            this.lblKodBadaniaLekarz = new System.Windows.Forms.Label();
+            this.txtIDBadaniaLekarz = new System.Windows.Forms.TextBox();
+            this.lblIDBadaniaLekarz = new System.Windows.Forms.Label();
+            this.lblUwagiLekarz = new System.Windows.Forms.Label();
+            this.btnZlecLekarz = new System.Windows.Forms.Button();
+            this.charCounterLekarz = new System.Windows.Forms.Label();
+            this.txtUwagiLekarz = new System.Windows.Forms.TextBox();
+            this.tabLab = new System.Windows.Forms.TabPage();
+            this.txtKodBadaniaLab = new System.Windows.Forms.TextBox();
+            this.lblStatusBadaniaLab = new System.Windows.Forms.Label();
+            this.txtNazwaBadaniaLab = new System.Windows.Forms.TextBox();
+            this.lblNazwaBadaniaLab = new System.Windows.Forms.Label();
+            this.txtStatusBadaniaLab = new System.Windows.Forms.TextBox();
+            this.lblKodBadaniaLab = new System.Windows.Forms.Label();
+            this.txtIDBadaniaLab = new System.Windows.Forms.TextBox();
+            this.lblIDBadaniaLab = new System.Windows.Forms.Label();
+            this.lblWynikiLab = new System.Windows.Forms.Label();
+            this.btnZatwierdzLab = new System.Windows.Forms.Button();
+            this.btnAnulujLab = new System.Windows.Forms.Button();
             this.charCounterLab = new System.Windows.Forms.Label();
-            this.uwagiLabBadania = new System.Windows.Forms.TextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtWynikiLab = new System.Windows.Forms.TextBox();
+            this.tabKlab = new System.Windows.Forms.TabPage();
+            this.lblInfoBadanie = new System.Windows.Forms.Label();
+            this.lblUwagiKLab = new System.Windows.Forms.Label();
+            this.btnZatwierdzKLab = new System.Windows.Forms.Button();
+            this.btnAnulujKLab = new System.Windows.Forms.Button();
             this.charCounterKLab = new System.Windows.Forms.Label();
-            this.uwagiKLabBadania = new System.Windows.Forms.TextBox();
+            this.txtUwagiKLab = new System.Windows.Forms.TextBox();
             this.Tab.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.tabLekarz.SuspendLayout();
+            this.tabLab.SuspendLayout();
+            this.tabKlab.SuspendLayout();
             this.SuspendLayout();
             // 
             // Tab
             // 
-            this.Tab.Controls.Add(this.tabPage1);
-            this.Tab.Controls.Add(this.tabPage2);
-            this.Tab.Controls.Add(this.tabPage3);
+            this.Tab.Controls.Add(this.tabLekarz);
+            this.Tab.Controls.Add(this.tabLab);
+            this.Tab.Controls.Add(this.tabKlab);
             this.Tab.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Tab.ItemSize = new System.Drawing.Size(200, 28);
             this.Tab.Location = new System.Drawing.Point(10, 12);
@@ -89,303 +89,304 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.LightGray;
-            this.tabPage1.Controls.Add(this.textBox9);
-            this.tabPage1.Controls.Add(this.button6);
-            this.tabPage1.Controls.Add(this.label8);
-            this.tabPage1.Controls.Add(this.textBox5);
-            this.tabPage1.Controls.Add(this.label9);
-            this.tabPage1.Controls.Add(this.textBox6);
-            this.tabPage1.Controls.Add(this.label10);
-            this.tabPage1.Controls.Add(this.textBox7);
-            this.tabPage1.Controls.Add(this.label11);
-            this.tabPage1.Controls.Add(this.label12);
-            this.tabPage1.Controls.Add(this.zlecButton);
-            this.tabPage1.Controls.Add(this.label13);
-            this.tabPage1.Controls.Add(this.textBox8);
-            this.tabPage1.Location = new System.Drawing.Point(4, 32);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(598, 202);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Lekarz";
+            this.tabLekarz.BackColor = System.Drawing.Color.LightGray;
+            this.tabLekarz.Controls.Add(this.txtKodBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.btnWYbierzKodBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.lblStatusBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.txtNazwaBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.lblNazwaBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.txtStatusBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.lblKodBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.txtIDBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.lblIDBadaniaLekarz);
+            this.tabLekarz.Controls.Add(this.lblUwagiLekarz);
+            this.tabLekarz.Controls.Add(this.btnZlecLekarz);
+            this.tabLekarz.Controls.Add(this.charCounterLekarz);
+            this.tabLekarz.Controls.Add(this.txtUwagiLekarz);
+            this.tabLekarz.Location = new System.Drawing.Point(4, 32);
+            this.tabLekarz.Name = "tabPage1";
+            this.tabLekarz.Padding = new System.Windows.Forms.Padding(3);
+            this.tabLekarz.Size = new System.Drawing.Size(598, 202);
+            this.tabLekarz.TabIndex = 0;
+            this.tabLekarz.Text = "Lekarz";
             // 
-            // textBox9
+            // txtKodBadaniaLekarz
             // 
-            this.textBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox9.Location = new System.Drawing.Point(110, 47);
-            this.textBox9.MaxLength = 15;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(88, 27);
-            this.textBox9.TabIndex = 30;
-            this.textBox9.Text = "Bx0045";
+            this.txtKodBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtKodBadaniaLekarz.Location = new System.Drawing.Point(110, 47);
+            this.txtKodBadaniaLekarz.MaxLength = 15;
+            this.txtKodBadaniaLekarz.Name = "txtKodBadaniaLekarz";
+            this.txtKodBadaniaLekarz.ReadOnly = true;
+            this.txtKodBadaniaLekarz.Size = new System.Drawing.Size(88, 27);
+            this.txtKodBadaniaLekarz.TabIndex = 30;
+            this.txtKodBadaniaLekarz.Text = "Bx0045";
             // 
-            // button6
+            // btnWYbierzKodBadaniaLekarz
             // 
-            this.button6.Location = new System.Drawing.Point(204, 47);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(34, 27);
-            this.button6.TabIndex = 29;
-            this.button6.Text = "...";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnWYbierzKodBadaniaLekarz.Location = new System.Drawing.Point(204, 47);
+            this.btnWYbierzKodBadaniaLekarz.Name = "btnWYbierzKodBadaniaLekarz";
+            this.btnWYbierzKodBadaniaLekarz.Size = new System.Drawing.Size(34, 27);
+            this.btnWYbierzKodBadaniaLekarz.TabIndex = 29;
+            this.btnWYbierzKodBadaniaLekarz.Text = "...";
+            this.btnWYbierzKodBadaniaLekarz.UseVisualStyleBackColor = true;
+            this.btnWYbierzKodBadaniaLekarz.Click += new System.EventHandler(this.button6_Click);
             // 
-            // label8
+            // lblStatusBadaniaLekarz
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.Location = new System.Drawing.Point(55, 116);
-            this.label8.Margin = new System.Windows.Forms.Padding(0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 19);
-            this.label8.TabIndex = 28;
-            this.label8.Text = "Status";
+            this.lblStatusBadaniaLekarz.AutoSize = true;
+            this.lblStatusBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblStatusBadaniaLekarz.Location = new System.Drawing.Point(55, 116);
+            this.lblStatusBadaniaLekarz.Margin = new System.Windows.Forms.Padding(0);
+            this.lblStatusBadaniaLekarz.Name = "lblStatusBadaniaLekarz";
+            this.lblStatusBadaniaLekarz.Size = new System.Drawing.Size(52, 19);
+            this.lblStatusBadaniaLekarz.TabIndex = 28;
+            this.lblStatusBadaniaLekarz.Text = "Status";
             // 
-            // textBox5
+            // txtNazwaBadaniaLekarz
             // 
-            this.textBox5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox5.Location = new System.Drawing.Point(110, 80);
-            this.textBox5.MaxLength = 15;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(128, 27);
-            this.textBox5.TabIndex = 27;
-            this.textBox5.Text = "Rezonans";
+            this.txtNazwaBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtNazwaBadaniaLekarz.Location = new System.Drawing.Point(110, 80);
+            this.txtNazwaBadaniaLekarz.MaxLength = 15;
+            this.txtNazwaBadaniaLekarz.Name = "txtNazwaBadaniaLekarz";
+            this.txtNazwaBadaniaLekarz.Size = new System.Drawing.Size(128, 27);
+            this.txtNazwaBadaniaLekarz.TabIndex = 27;
+            this.txtNazwaBadaniaLekarz.Text = "Rezonans";
             // 
-            // label9
+            // lblNazwaBadaniaLekarz
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label9.Location = new System.Drawing.Point(53, 83);
-            this.label9.Margin = new System.Windows.Forms.Padding(0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(54, 19);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "Nazwa";
+            this.lblNazwaBadaniaLekarz.AutoSize = true;
+            this.lblNazwaBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNazwaBadaniaLekarz.Location = new System.Drawing.Point(53, 83);
+            this.lblNazwaBadaniaLekarz.Margin = new System.Windows.Forms.Padding(0);
+            this.lblNazwaBadaniaLekarz.Name = "lblNazwaBadaniaLekarz";
+            this.lblNazwaBadaniaLekarz.Size = new System.Drawing.Size(54, 19);
+            this.lblNazwaBadaniaLekarz.TabIndex = 26;
+            this.lblNazwaBadaniaLekarz.Text = "Nazwa";
             // 
-            // textBox6
+            // txtStatusBadaniaLekarz
             // 
-            this.textBox6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox6.Location = new System.Drawing.Point(110, 113);
-            this.textBox6.MaxLength = 15;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(128, 27);
-            this.textBox6.TabIndex = 25;
-            this.textBox6.Text = "Rozpoczęte";
+            this.txtStatusBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtStatusBadaniaLekarz.Location = new System.Drawing.Point(110, 113);
+            this.txtStatusBadaniaLekarz.MaxLength = 15;
+            this.txtStatusBadaniaLekarz.Name = "txtStatusBadaniaLekarz";
+            this.txtStatusBadaniaLekarz.Size = new System.Drawing.Size(128, 27);
+            this.txtStatusBadaniaLekarz.TabIndex = 25;
+            this.txtStatusBadaniaLekarz.Text = "Rozpoczęte";
             // 
-            // label10
+            // lblKodBadaniaLekarz
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label10.Location = new System.Drawing.Point(71, 50);
-            this.label10.Margin = new System.Windows.Forms.Padding(0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(36, 19);
-            this.label10.TabIndex = 24;
-            this.label10.Text = "Kod";
+            this.lblKodBadaniaLekarz.AutoSize = true;
+            this.lblKodBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblKodBadaniaLekarz.Location = new System.Drawing.Point(71, 50);
+            this.lblKodBadaniaLekarz.Margin = new System.Windows.Forms.Padding(0);
+            this.lblKodBadaniaLekarz.Name = "lblKodBadaniaLekarz";
+            this.lblKodBadaniaLekarz.Size = new System.Drawing.Size(36, 19);
+            this.lblKodBadaniaLekarz.TabIndex = 24;
+            this.lblKodBadaniaLekarz.Text = "Kod";
             // 
-            // textBox7
+            // txtIDBadaniaLekarz
             // 
-            this.textBox7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox7.Location = new System.Drawing.Point(110, 14);
-            this.textBox7.MaxLength = 15;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(128, 27);
-            this.textBox7.TabIndex = 23;
-            this.textBox7.Text = "13009543";
+            this.txtIDBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtIDBadaniaLekarz.Location = new System.Drawing.Point(110, 14);
+            this.txtIDBadaniaLekarz.MaxLength = 15;
+            this.txtIDBadaniaLekarz.Name = "txtIDBadaniaLekarz";
+            this.txtIDBadaniaLekarz.Size = new System.Drawing.Size(128, 27);
+            this.txtIDBadaniaLekarz.TabIndex = 23;
+            this.txtIDBadaniaLekarz.Text = "13009543";
             // 
-            // label11
+            // lblIDBadaniaLekarz
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label11.Location = new System.Drawing.Point(25, 17);
-            this.label11.Margin = new System.Windows.Forms.Padding(0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(82, 19);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "ID Badania";
+            this.lblIDBadaniaLekarz.AutoSize = true;
+            this.lblIDBadaniaLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblIDBadaniaLekarz.Location = new System.Drawing.Point(25, 17);
+            this.lblIDBadaniaLekarz.Margin = new System.Windows.Forms.Padding(0);
+            this.lblIDBadaniaLekarz.Name = "lblIDBadaniaLekarz";
+            this.lblIDBadaniaLekarz.Size = new System.Drawing.Size(82, 19);
+            this.lblIDBadaniaLekarz.TabIndex = 22;
+            this.lblIDBadaniaLekarz.Text = "ID Badania";
             // 
-            // label12
+            // lblUwagiLekarz
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(338, 18);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(64, 23);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Uwagi:";
+            this.lblUwagiLekarz.AutoSize = true;
+            this.lblUwagiLekarz.Location = new System.Drawing.Point(338, 18);
+            this.lblUwagiLekarz.Name = "lblUwagiLekarz";
+            this.lblUwagiLekarz.Size = new System.Drawing.Size(64, 23);
+            this.lblUwagiLekarz.TabIndex = 21;
+            this.lblUwagiLekarz.Text = "Uwagi:";
             // 
-            // zlecButton
+            // btnZlecLekarz
             // 
-            this.zlecButton.BackColor = System.Drawing.Color.ForestGreen;
-            this.zlecButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.zlecButton.FlatAppearance.BorderSize = 3;
-            this.zlecButton.Location = new System.Drawing.Point(98, 150);
-            this.zlecButton.Name = "zlecButton";
-            this.zlecButton.Size = new System.Drawing.Size(140, 38);
-            this.zlecButton.TabIndex = 20;
-            this.zlecButton.Text = "Zaleć";
-            this.zlecButton.UseVisualStyleBackColor = false;
+            this.btnZlecLekarz.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnZlecLekarz.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnZlecLekarz.FlatAppearance.BorderSize = 3;
+            this.btnZlecLekarz.Location = new System.Drawing.Point(98, 150);
+            this.btnZlecLekarz.Name = "btnZlecLekarz";
+            this.btnZlecLekarz.Size = new System.Drawing.Size(140, 38);
+            this.btnZlecLekarz.TabIndex = 20;
+            this.btnZlecLekarz.Text = "Zaleć";
+            this.btnZlecLekarz.UseVisualStyleBackColor = false;
             // 
-            // label13
+            // charCounterLekarz
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(498, 165);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(76, 23);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "23 / 150";
+            this.charCounterLekarz.AutoSize = true;
+            this.charCounterLekarz.Location = new System.Drawing.Point(498, 165);
+            this.charCounterLekarz.Name = "charCounterLekarz";
+            this.charCounterLekarz.Size = new System.Drawing.Size(76, 23);
+            this.charCounterLekarz.TabIndex = 19;
+            this.charCounterLekarz.Text = "23 / 150";
             // 
-            // textBox8
+            // txtUwagiLekarz
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox8.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.textBox8.Location = new System.Drawing.Point(342, 44);
-            this.textBox8.MaxLength = 150;
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox8.Size = new System.Drawing.Size(232, 118);
-            this.textBox8.TabIndex = 18;
-            this.textBox8.Text = "Pacjenta boli noga.";
+            this.txtUwagiLekarz.BackColor = System.Drawing.SystemColors.Window;
+            this.txtUwagiLekarz.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUwagiLekarz.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtUwagiLekarz.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.txtUwagiLekarz.Location = new System.Drawing.Point(342, 44);
+            this.txtUwagiLekarz.MaxLength = 150;
+            this.txtUwagiLekarz.Multiline = true;
+            this.txtUwagiLekarz.Name = "txtUwagiLekarz";
+            this.txtUwagiLekarz.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtUwagiLekarz.Size = new System.Drawing.Size(232, 118);
+            this.txtUwagiLekarz.TabIndex = 18;
+            this.txtUwagiLekarz.Text = "Pacjenta boli noga.";
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.LightGray;
-            this.tabPage2.Controls.Add(this.textBox4);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.textBox3);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.textBox2);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.textBox1);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.label3);
-            this.tabPage2.Controls.Add(this.button3);
-            this.tabPage2.Controls.Add(this.button4);
-            this.tabPage2.Controls.Add(this.charCounterLab);
-            this.tabPage2.Controls.Add(this.uwagiLabBadania);
-            this.tabPage2.Location = new System.Drawing.Point(4, 32);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(598, 202);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Laborant";
+            this.tabLab.BackColor = System.Drawing.Color.LightGray;
+            this.tabLab.Controls.Add(this.txtKodBadaniaLab);
+            this.tabLab.Controls.Add(this.lblStatusBadaniaLab);
+            this.tabLab.Controls.Add(this.txtNazwaBadaniaLab);
+            this.tabLab.Controls.Add(this.lblNazwaBadaniaLab);
+            this.tabLab.Controls.Add(this.txtStatusBadaniaLab);
+            this.tabLab.Controls.Add(this.lblKodBadaniaLab);
+            this.tabLab.Controls.Add(this.txtIDBadaniaLab);
+            this.tabLab.Controls.Add(this.lblIDBadaniaLab);
+            this.tabLab.Controls.Add(this.lblWynikiLab);
+            this.tabLab.Controls.Add(this.btnZatwierdzLab);
+            this.tabLab.Controls.Add(this.btnAnulujLab);
+            this.tabLab.Controls.Add(this.charCounterLab);
+            this.tabLab.Controls.Add(this.txtWynikiLab);
+            this.tabLab.Location = new System.Drawing.Point(4, 32);
+            this.tabLab.Name = "tabPage2";
+            this.tabLab.Padding = new System.Windows.Forms.Padding(3);
+            this.tabLab.Size = new System.Drawing.Size(598, 202);
+            this.tabLab.TabIndex = 1;
+            this.tabLab.Text = "Laborant";
             // 
-            // textBox4
+            // txtKodBadaniaLab
             // 
-            this.textBox4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox4.Location = new System.Drawing.Point(116, 45);
-            this.textBox4.MaxLength = 15;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(128, 27);
-            this.textBox4.TabIndex = 18;
-            this.textBox4.Text = "Bx0098";
+            this.txtKodBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtKodBadaniaLab.Location = new System.Drawing.Point(116, 45);
+            this.txtKodBadaniaLab.MaxLength = 15;
+            this.txtKodBadaniaLab.Name = "txtKodBadaniaLab";
+            this.txtKodBadaniaLab.Size = new System.Drawing.Size(128, 27);
+            this.txtKodBadaniaLab.TabIndex = 18;
+            this.txtKodBadaniaLab.Text = "Bx0098";
             // 
-            // label7
+            // lblStatusBadaniaLab
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.Location = new System.Drawing.Point(61, 114);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 19);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Status";
+            this.lblStatusBadaniaLab.AutoSize = true;
+            this.lblStatusBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblStatusBadaniaLab.Location = new System.Drawing.Point(61, 114);
+            this.lblStatusBadaniaLab.Margin = new System.Windows.Forms.Padding(0);
+            this.lblStatusBadaniaLab.Name = "lblStatusBadaniaLab";
+            this.lblStatusBadaniaLab.Size = new System.Drawing.Size(52, 19);
+            this.lblStatusBadaniaLab.TabIndex = 17;
+            this.lblStatusBadaniaLab.Text = "Status";
             // 
-            // textBox3
+            // txtNazwaBadaniaLab
             // 
-            this.textBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox3.Location = new System.Drawing.Point(116, 78);
-            this.textBox3.MaxLength = 15;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(128, 27);
-            this.textBox3.TabIndex = 16;
-            this.textBox3.Text = "Rezonans";
+            this.txtNazwaBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtNazwaBadaniaLab.Location = new System.Drawing.Point(116, 78);
+            this.txtNazwaBadaniaLab.MaxLength = 15;
+            this.txtNazwaBadaniaLab.Name = "txtNazwaBadaniaLab";
+            this.txtNazwaBadaniaLab.Size = new System.Drawing.Size(128, 27);
+            this.txtNazwaBadaniaLab.TabIndex = 16;
+            this.txtNazwaBadaniaLab.Text = "Rezonans";
             // 
-            // label6
+            // lblNazwaBadaniaLab
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(59, 81);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 19);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Nazwa";
+            this.lblNazwaBadaniaLab.AutoSize = true;
+            this.lblNazwaBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblNazwaBadaniaLab.Location = new System.Drawing.Point(59, 81);
+            this.lblNazwaBadaniaLab.Margin = new System.Windows.Forms.Padding(0);
+            this.lblNazwaBadaniaLab.Name = "lblNazwaBadaniaLab";
+            this.lblNazwaBadaniaLab.Size = new System.Drawing.Size(54, 19);
+            this.lblNazwaBadaniaLab.TabIndex = 15;
+            this.lblNazwaBadaniaLab.Text = "Nazwa";
             // 
-            // textBox2
+            // txtStatusBadaniaLab
             // 
-            this.textBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox2.Location = new System.Drawing.Point(116, 111);
-            this.textBox2.MaxLength = 15;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 27);
-            this.textBox2.TabIndex = 14;
-            this.textBox2.Text = "Rozpoczęte";
+            this.txtStatusBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtStatusBadaniaLab.Location = new System.Drawing.Point(116, 111);
+            this.txtStatusBadaniaLab.MaxLength = 15;
+            this.txtStatusBadaniaLab.Name = "txtStatusBadaniaLab";
+            this.txtStatusBadaniaLab.Size = new System.Drawing.Size(128, 27);
+            this.txtStatusBadaniaLab.TabIndex = 14;
+            this.txtStatusBadaniaLab.Text = "Rozpoczęte";
             // 
-            // label4
+            // lblKodBadaniaLab
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(77, 48);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 19);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Kod";
+            this.lblKodBadaniaLab.AutoSize = true;
+            this.lblKodBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblKodBadaniaLab.Location = new System.Drawing.Point(77, 48);
+            this.lblKodBadaniaLab.Margin = new System.Windows.Forms.Padding(0);
+            this.lblKodBadaniaLab.Name = "lblKodBadaniaLab";
+            this.lblKodBadaniaLab.Size = new System.Drawing.Size(36, 19);
+            this.lblKodBadaniaLab.TabIndex = 13;
+            this.lblKodBadaniaLab.Text = "Kod";
             // 
-            // textBox1
+            // txtIDBadaniaLab
             // 
-            this.textBox1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(116, 12);
-            this.textBox1.MaxLength = 15;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 27);
-            this.textBox1.TabIndex = 12;
-            this.textBox1.Text = "13009543";
+            this.txtIDBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtIDBadaniaLab.Location = new System.Drawing.Point(116, 12);
+            this.txtIDBadaniaLab.MaxLength = 15;
+            this.txtIDBadaniaLab.Name = "txtIDBadaniaLab";
+            this.txtIDBadaniaLab.Size = new System.Drawing.Size(128, 27);
+            this.txtIDBadaniaLab.TabIndex = 12;
+            this.txtIDBadaniaLab.Text = "13009543";
             // 
-            // label5
+            // lblIDBadaniaLab
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(31, 15);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 19);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "ID Badania";
+            this.lblIDBadaniaLab.AutoSize = true;
+            this.lblIDBadaniaLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblIDBadaniaLab.Location = new System.Drawing.Point(31, 15);
+            this.lblIDBadaniaLab.Margin = new System.Windows.Forms.Padding(0);
+            this.lblIDBadaniaLab.Name = "lblIDBadaniaLab";
+            this.lblIDBadaniaLab.Size = new System.Drawing.Size(82, 19);
+            this.lblIDBadaniaLab.TabIndex = 10;
+            this.lblIDBadaniaLab.Text = "ID Badania";
             // 
-            // label3
+            // lblWynikiLab
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(344, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 23);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Wyniki:";
+            this.lblWynikiLab.AutoSize = true;
+            this.lblWynikiLab.Location = new System.Drawing.Point(344, 16);
+            this.lblWynikiLab.Name = "lblWynikiLab";
+            this.lblWynikiLab.Size = new System.Drawing.Size(70, 23);
+            this.lblWynikiLab.TabIndex = 9;
+            this.lblWynikiLab.Text = "Wyniki:";
             // 
-            // button3
+            // btnZatwierdzLab
             // 
-            this.button3.BackColor = System.Drawing.Color.ForestGreen;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button3.FlatAppearance.BorderSize = 3;
-            this.button3.Location = new System.Drawing.Point(35, 148);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(140, 38);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Zatwierdź";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnZatwierdzLab.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnZatwierdzLab.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnZatwierdzLab.FlatAppearance.BorderSize = 3;
+            this.btnZatwierdzLab.Location = new System.Drawing.Point(35, 148);
+            this.btnZatwierdzLab.Name = "btnZatwierdzLab";
+            this.btnZatwierdzLab.Size = new System.Drawing.Size(140, 38);
+            this.btnZatwierdzLab.TabIndex = 8;
+            this.btnZatwierdzLab.Text = "Zatwierdź";
+            this.btnZatwierdzLab.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnAnulujLab
             // 
-            this.button4.BackColor = System.Drawing.Color.IndianRed;
-            this.button4.Location = new System.Drawing.Point(181, 148);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(140, 38);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Anuluj";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnAnulujLab.BackColor = System.Drawing.Color.IndianRed;
+            this.btnAnulujLab.Location = new System.Drawing.Point(181, 148);
+            this.btnAnulujLab.Name = "btnAnulujLab";
+            this.btnAnulujLab.Size = new System.Drawing.Size(140, 38);
+            this.btnAnulujLab.TabIndex = 7;
+            this.btnAnulujLab.Text = "Anuluj";
+            this.btnAnulujLab.UseVisualStyleBackColor = false;
             // 
             // charCounterLab
             // 
@@ -396,78 +397,78 @@
             this.charCounterLab.TabIndex = 6;
             this.charCounterLab.Text = "23 / 150";
             // 
-            // uwagiLabBadania
+            // txtWynikiLab
             // 
-            this.uwagiLabBadania.BackColor = System.Drawing.SystemColors.Window;
-            this.uwagiLabBadania.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.uwagiLabBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.uwagiLabBadania.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.uwagiLabBadania.Location = new System.Drawing.Point(348, 42);
-            this.uwagiLabBadania.MaxLength = 150;
-            this.uwagiLabBadania.Multiline = true;
-            this.uwagiLabBadania.Name = "uwagiLabBadania";
-            this.uwagiLabBadania.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uwagiLabBadania.Size = new System.Drawing.Size(232, 118);
-            this.uwagiLabBadania.TabIndex = 5;
-            this.uwagiLabBadania.Text = "Przeprowadzono badanie.";
-            this.uwagiLabBadania.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtWynikiLab.BackColor = System.Drawing.SystemColors.Window;
+            this.txtWynikiLab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtWynikiLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtWynikiLab.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.txtWynikiLab.Location = new System.Drawing.Point(348, 42);
+            this.txtWynikiLab.MaxLength = 150;
+            this.txtWynikiLab.Multiline = true;
+            this.txtWynikiLab.Name = "txtWynikiLab";
+            this.txtWynikiLab.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtWynikiLab.Size = new System.Drawing.Size(232, 118);
+            this.txtWynikiLab.TabIndex = 5;
+            this.txtWynikiLab.Text = "Przeprowadzono badanie.";
+            this.txtWynikiLab.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.LightGray;
-            this.tabPage3.Controls.Add(this.label2);
-            this.tabPage3.Controls.Add(this.label1);
-            this.tabPage3.Controls.Add(this.button2);
-            this.tabPage3.Controls.Add(this.button1);
-            this.tabPage3.Controls.Add(this.charCounterKLab);
-            this.tabPage3.Controls.Add(this.uwagiKLabBadania);
-            this.tabPage3.Location = new System.Drawing.Point(4, 32);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(598, 202);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "K. Lab.";
+            this.tabKlab.BackColor = System.Drawing.Color.LightGray;
+            this.tabKlab.Controls.Add(this.lblInfoBadanie);
+            this.tabKlab.Controls.Add(this.lblUwagiKLab);
+            this.tabKlab.Controls.Add(this.btnZatwierdzKLab);
+            this.tabKlab.Controls.Add(this.btnAnulujKLab);
+            this.tabKlab.Controls.Add(this.charCounterKLab);
+            this.tabKlab.Controls.Add(this.txtUwagiKLab);
+            this.tabKlab.Location = new System.Drawing.Point(4, 32);
+            this.tabKlab.Name = "tabPage3";
+            this.tabKlab.Padding = new System.Windows.Forms.Padding(3);
+            this.tabKlab.Size = new System.Drawing.Size(598, 202);
+            this.tabKlab.TabIndex = 2;
+            this.tabKlab.Text = "K. Lab.";
             // 
-            // label2
+            // lblInfoBadanie
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(83, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(194, 46);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Badanie nr. 2300456\r\nRezonans magnetyczny";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblInfoBadanie.AutoSize = true;
+            this.lblInfoBadanie.Location = new System.Drawing.Point(83, 44);
+            this.lblInfoBadanie.Name = "lblInfoBadanie";
+            this.lblInfoBadanie.Size = new System.Drawing.Size(194, 46);
+            this.lblInfoBadanie.TabIndex = 5;
+            this.lblInfoBadanie.Text = "Badanie nr. 2300456\r\nRezonans magnetyczny";
+            this.lblInfoBadanie.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label1
+            // lblUwagiKLab
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(347, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 23);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Uwagi:";
+            this.lblUwagiKLab.AutoSize = true;
+            this.lblUwagiKLab.Location = new System.Drawing.Point(347, 19);
+            this.lblUwagiKLab.Name = "lblUwagiKLab";
+            this.lblUwagiKLab.Size = new System.Drawing.Size(64, 23);
+            this.lblUwagiKLab.TabIndex = 4;
+            this.lblUwagiKLab.Text = "Uwagi:";
             // 
-            // button2
+            // btnZatwierdzKLab
             // 
-            this.button2.BackColor = System.Drawing.Color.ForestGreen;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button2.FlatAppearance.BorderSize = 3;
-            this.button2.Location = new System.Drawing.Point(21, 105);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 58);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Zatwierdź";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnZatwierdzKLab.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnZatwierdzKLab.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnZatwierdzKLab.FlatAppearance.BorderSize = 3;
+            this.btnZatwierdzKLab.Location = new System.Drawing.Point(21, 105);
+            this.btnZatwierdzKLab.Name = "btnZatwierdzKLab";
+            this.btnZatwierdzKLab.Size = new System.Drawing.Size(140, 58);
+            this.btnZatwierdzKLab.TabIndex = 3;
+            this.btnZatwierdzKLab.Text = "Zatwierdź";
+            this.btnZatwierdzKLab.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnAnulujKLab
             // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
-            this.button1.Location = new System.Drawing.Point(184, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 58);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Anuluj";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAnulujKLab.BackColor = System.Drawing.Color.IndianRed;
+            this.btnAnulujKLab.Location = new System.Drawing.Point(184, 105);
+            this.btnAnulujKLab.Name = "btnAnulujKLab";
+            this.btnAnulujKLab.Size = new System.Drawing.Size(140, 58);
+            this.btnAnulujKLab.TabIndex = 2;
+            this.btnAnulujKLab.Text = "Anuluj";
+            this.btnAnulujKLab.UseVisualStyleBackColor = false;
             // 
             // charCounterKLab
             // 
@@ -478,37 +479,37 @@
             this.charCounterKLab.TabIndex = 1;
             this.charCounterKLab.Text = "19 / 150";
             // 
-            // uwagiKLabBadania
+            // txtUwagiKLab
             // 
-            this.uwagiKLabBadania.BackColor = System.Drawing.SystemColors.Window;
-            this.uwagiKLabBadania.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.uwagiKLabBadania.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.uwagiKLabBadania.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.uwagiKLabBadania.Location = new System.Drawing.Point(351, 45);
-            this.uwagiKLabBadania.MaxLength = 150;
-            this.uwagiKLabBadania.Multiline = true;
-            this.uwagiKLabBadania.Name = "uwagiKLabBadania";
-            this.uwagiKLabBadania.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uwagiKLabBadania.Size = new System.Drawing.Size(232, 118);
-            this.uwagiKLabBadania.TabIndex = 0;
-            this.uwagiKLabBadania.Text = "Nieczytelne wyniki.";
-            this.uwagiKLabBadania.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtUwagiKLab.BackColor = System.Drawing.SystemColors.Window;
+            this.txtUwagiKLab.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUwagiKLab.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtUwagiKLab.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.txtUwagiKLab.Location = new System.Drawing.Point(351, 45);
+            this.txtUwagiKLab.MaxLength = 150;
+            this.txtUwagiKLab.Multiline = true;
+            this.txtUwagiKLab.Name = "txtUwagiKLab";
+            this.txtUwagiKLab.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtUwagiKLab.Size = new System.Drawing.Size(232, 118);
+            this.txtUwagiKLab.TabIndex = 0;
+            this.txtUwagiKLab.Text = "Nieczytelne wyniki.";
+            this.txtUwagiKLab.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // Laboratorium
+            // frmLaboratorium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(626, 262);
             this.Controls.Add(this.Tab);
-            this.Name = "Laboratorium";
+            this.Name = "frmLaboratorium";
             this.Text = "Laboratorium";
             this.Tab.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.tabLekarz.ResumeLayout(false);
+            this.tabLekarz.PerformLayout();
+            this.tabLab.ResumeLayout(false);
+            this.tabLab.PerformLayout();
+            this.tabKlab.ResumeLayout(false);
+            this.tabKlab.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -516,40 +517,40 @@
         #endregion
 
         private System.Windows.Forms.TabControl Tab;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TextBox uwagiKLabBadania;
+        private System.Windows.Forms.TabPage tabLekarz;
+        private System.Windows.Forms.TabPage tabLab;
+        private System.Windows.Forms.TabPage tabKlab;
+        private System.Windows.Forms.TextBox txtUwagiKLab;
         private System.Windows.Forms.Label charCounterKLab;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnZatwierdzKLab;
+        private System.Windows.Forms.Button btnAnulujKLab;
+        private System.Windows.Forms.Label lblUwagiKLab;
+        private System.Windows.Forms.Label lblInfoBadanie;
+        private System.Windows.Forms.Label lblWynikiLab;
+        private System.Windows.Forms.Button btnZatwierdzLab;
+        private System.Windows.Forms.Button btnAnulujLab;
         private System.Windows.Forms.Label charCounterLab;
-        private System.Windows.Forms.TextBox uwagiLabBadania;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button zlecButton;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox txtWynikiLab;
+        private System.Windows.Forms.TextBox txtIDBadaniaLab;
+        private System.Windows.Forms.Label lblIDBadaniaLab;
+        private System.Windows.Forms.TextBox txtKodBadaniaLab;
+        private System.Windows.Forms.Label lblStatusBadaniaLab;
+        private System.Windows.Forms.TextBox txtNazwaBadaniaLab;
+        private System.Windows.Forms.Label lblNazwaBadaniaLab;
+        private System.Windows.Forms.TextBox txtStatusBadaniaLab;
+        private System.Windows.Forms.Label lblKodBadaniaLab;
+        private System.Windows.Forms.Label lblStatusBadaniaLekarz;
+        private System.Windows.Forms.TextBox txtNazwaBadaniaLekarz;
+        private System.Windows.Forms.Label lblNazwaBadaniaLekarz;
+        private System.Windows.Forms.TextBox txtStatusBadaniaLekarz;
+        private System.Windows.Forms.Label lblKodBadaniaLekarz;
+        private System.Windows.Forms.TextBox txtIDBadaniaLekarz;
+        private System.Windows.Forms.Label lblIDBadaniaLekarz;
+        private System.Windows.Forms.Label lblUwagiLekarz;
+        private System.Windows.Forms.Button btnZlecLekarz;
+        private System.Windows.Forms.Label charCounterLekarz;
+        private System.Windows.Forms.TextBox txtUwagiLekarz;
+        private System.Windows.Forms.TextBox txtKodBadaniaLekarz;
+        private System.Windows.Forms.Button btnWYbierzKodBadaniaLekarz;
     }
 }

@@ -29,3 +29,28 @@ C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bi
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\DataLayer.dll
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\BizzLayer.pdb
 C:\Users\Johnny\Documents\Visual Studio 2013\Projects\Przychodnia\Przychodnia\bin\Debug\DataLayer.pdb
+C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\Przychodnia.exe
+C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\Przychodnia.pdb
+C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\BizzLayer.dll
+C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\DataLayer.dll
+C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\BizzLayer.pdb
+C:\Users\Marcin\Source\Repos\Przychodnia\bin\Debug\DataLayer.pdb
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.csprojResolveAssemblyReference.cache
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmAdminDodaj.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmAdminEdytuj.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmAdministrator.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmBadania.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmBadaniaFizykalne.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmEdycjaPacjenta.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmLaboratorium.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmLekarzGlowna.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmListaBadanLaboratoryjnych.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmNowyPacjent.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmRejestracjaPacjenta.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmRejestratorka.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmSlownikBadanLab.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmWizyta.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmBadanie.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.Properties.Resources.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.frmSlownikBadanFizykalnych.resources
+C:\Users\Marcin\Source\Repos\Przychodnia\obj\Debug\Przychodnia.csproj.GenerateResource.Cache

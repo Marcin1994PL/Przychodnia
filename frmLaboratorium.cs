@@ -19,12 +19,12 @@ namespace Przychodnia
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            charCounterKLab.Text = uwagiKLabBadania.TextLength.ToString() + " / 150";         
+            charCounterKLab.Text = txtUwagiKLab.TextLength.ToString() + " / 150";         
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            charCounterLab.Text = uwagiLabBadania.TextLength.ToString() + " / 150";
+            charCounterLab.Text = txtWynikiLab.TextLength.ToString() + " / 150";
         }
 
         private void button6_Click(object sender, EventArgs e)
